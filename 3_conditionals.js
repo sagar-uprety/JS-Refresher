@@ -9,5 +9,6 @@ console.log(num1);
   console.log("odd");
 } */
 
+//ternary operator
 result = num1 % 2 == 0 ? "even" : "odd";
 console.log(result);

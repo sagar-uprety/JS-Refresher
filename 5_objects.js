@@ -24,6 +24,7 @@ const {
 
 console.log(`Age is ${age} and your city is ${city}`);
 
+//? copy or ref
 const person2 = person;
 console.log(person2.name);
 

@@ -16,7 +16,7 @@ class Person extends Human {
 }
 
 const person1 = new Person();
-person1.display(); //?child method takes precedence?
+person1.display(); //? child method takes precedence?
 person1.speak();
 console.log(person1.name); //child -> Sagar takes precedence
 console.log(person1.home);

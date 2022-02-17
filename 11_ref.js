@@ -6,6 +6,7 @@ const num2 = num; //copies actual value
 console.log(num2);
 
 //Array and Object - Reference Type
+
 const person = {
   name: "Sagar",
 };
