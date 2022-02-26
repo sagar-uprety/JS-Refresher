@@ -1,18 +1,30 @@
 //basic object
+const house = "House Number";
+
 const person = {
-  name: "Sagar",
+  names: "Sagar",
   age: 30,
   stack: ["MongoDB", "Express", "Vue.Js", "Node.Js"],
   address: {
     street: "Bibhuti Janak Marg",
     city: "New Baneshwor",
     ward: 31,
+    [house]: 10,
   },
+  house: 11,
+  [house]: 12,
 };
 
 // console.log(person);
 console.log(person.stack[2]);
 
+console.log(person.house);
+
+//computed property names
+console.log(person[house]);
+console.log(person.address[house]);
+
+//add property
 person.email = "sagarupreti100@gmail.com";
 console.log(person.email);
 
@@ -24,9 +36,9 @@ const {
 
 console.log(`Age is ${age} and your city is ${city}`);
 
-//? copy or ref
+//? copy or ref --ref not actual copy (new)
 const person2 = person;
-console.log(person2.name);
+console.log(person2.names);
 
 //Array of objects
 const posts = [
